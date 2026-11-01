@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Quiz App</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Civil Engineering Revision</h1>
+        <h2>Select a subject</h2>
+        <div class="subject-buttons">
+            <button class="subject-btn" data-subject="Ground Engineering">
+                <strong>Ground Engineering</strong>
+            </button>
+            <button class="subject-btn" data-subject="Analysis of Structures"><strong>Analysis of Structures</strong></button>
+            <button class="subject-btn" data-subject="Structural Design & Detailing"><strong>Structural Design & Detailing</strong></button>
+        </div>
+        <button id="start-btn" disabled>Start Quiz</button>
+        <div class="quiz" style="display:none;">
+            <div id="timer">Time left: 15s</div>
+            <div id="question-counter"></div>
+            <div class="progress-container"><div id="progress-bar"></div></div>
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <div id="fill-blank-container" style="display:none;">
+                <input type="text" id="fill-answer" placeholder="Type your answer">
+                <button id="submit-fill">Submit</button>
+            </div>
+            <div id="multiselect-container" style="display:none;"></div>
+            <button id="submit-multi" style="display:none">Submit Answer</button>
+            <div class="score-buttons">
+                <button id="next-btn">Next</button>
+                <button id="home-btn" style="display:none;">Return Home</button>
+            </div>
+            <p id="fill-feedback"></p>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

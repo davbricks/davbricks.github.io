@@ -1,0 +1,940 @@
+[
+  {
+    "id": 1,
+    "subject": "Ground Engineering",
+    "topic": "Definitions",
+    "week": 1,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Ground Engineering is primarily comprised of which two disciplines?",
+    "answers": [
+      {"text":"Geotechnical Engineering and Engineering Geology","correct":true},
+      {"text":"Structural Engineering and Surveying","correct":false},
+      {"text":"Concrete Design and Hydraulics","correct":false},
+      {"text":"Transportation and Geology","correct":false}
+    ]
+  },
+  {
+    "id": 2,
+    "subject": "Ground Engineering",
+    "topic": "Soil Mechanics",
+    "week": 1,
+    "difficulty": "Easy",
+    "type": "fillblank",
+    "question": "Soil mechanics is the study of the physical and engineering behaviour of ____.",
+    "answer": "soil"
+  },
+  {
+    "id": 3,
+    "subject": "Ground Engineering",
+    "topic": "Engineering Geology",
+    "week": 1,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Engineering geology is concerned with geological factors relevant to engineering works.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 4,
+    "subject": "Ground Engineering",
+    "topic": "Geotechnical Engineering",
+    "week": 1,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "A geotechnical engineer primarily investigates:",
+    "answers": [
+      {"text":"Engineering properties of ground materials","correct":true},
+      {"text":"Traffic flow","correct":false},
+      {"text":"Structural steel fabrication","correct":false},
+      {"text":"Mechanical systems","correct":false}
+    ]
+  },
+  {
+    "id": 5,
+    "subject": "Ground Engineering",
+    "topic": "Fundamentals",
+    "week": 1,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which topics are fundamental concepts within ground engineering?",
+    "answers": [
+      {"text":"Density","correct":true},
+      {"text":"Moisture Content","correct":true},
+      {"text":"Effective Stress","correct":true},
+      {"text":"Traffic Signal Design","correct":false}
+    ]
+  },
+  {
+    "id": 6,
+    "subject": "Ground Engineering",
+    "topic": "Ground Hazards",
+    "week": 1,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Poor understanding of ground conditions can contribute to engineering failures.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 7,
+    "subject": "Ground Engineering",
+    "topic": "Ground Engineering",
+    "week": 1,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Ground Engineering is concerned with:",
+    "answers": [
+      {"text":"The behaviour of soil and rock in engineering projects","correct":true},
+      {"text":"Architectural design","correct":false},
+      {"text":"Electrical installations","correct":false},
+      {"text":"Traffic surveys","correct":false}
+    ]
+  },
+  {
+    "id": 8,
+    "subject": "Ground Engineering",
+    "topic": "Ground Hazards",
+    "week": 1,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Unexpected ground conditions can increase project risk.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 9,
+    "subject": "Ground Engineering",
+    "topic": "Engineering Geology",
+    "week": 1,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "Geology is the scientific study of the origin, history, structure and composition of the ____.",
+    "answer": "earth"
+  },
+  {
+    "id": 10,
+    "subject": "Ground Engineering",
+    "topic": "Engineering Geology",
+    "week": 1,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which topics are commonly considered within Engineering Geology?",
+    "answers": [
+      {"text":"Rock properties","correct":true},
+      {"text":"Groundwater conditions","correct":true},
+      {"text":"Geological hazards","correct":true},
+      {"text":"Traffic management","correct":false}
+    ]
+  },
+
+  {
+    "id": 11,
+    "subject": "Ground Engineering",
+    "topic": "Ground Investigation",
+    "week": 2,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "The purpose of a Ground Investigation is to:",
+    "answers": [
+      {"text":"Gather information about site conditions","correct":true},
+      {"text":"Design foundations","correct":false},
+      {"text":"Construct retaining walls","correct":false},
+      {"text":"Determine building appearance","correct":false}
+    ]
+  },
+  {
+    "id": 12,
+    "subject": "Ground Engineering",
+    "topic": "Ground Investigation",
+    "week": 2,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Ground Investigation was historically referred to as Site Investigation.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 13,
+    "subject": "Ground Engineering",
+    "topic": "Investigation Objectives",
+    "week": 2,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which are objectives of a Ground Investigation?",
+    "answers": [
+      {"text":"Identifying hazards","correct":true},
+      {"text":"Locating construction materials","correct":true},
+      {"text":"Identifying contaminants","correct":true},
+      {"text":"Choosing architectural finishes","correct":false}
+    ]
+  },
+  {
+    "id": 14,
+    "subject": "Ground Engineering",
+    "topic": "Standards",
+    "week": 2,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "Eurocode 7 Part 2 is concerned with ground investigation and ____.",
+    "answer": "testing"
+  },
+  {
+    "id": 15,
+    "subject": "Ground Engineering",
+    "topic": "Risk",
+    "week": 2,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "The abbreviation for a Geotechnical Risk Register is ____.",
+    "answer": "GRR"
+  },
+  {
+    "id": 16,
+    "subject": "Ground Engineering",
+    "topic": "Risk",
+    "week": 2,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "The ground is often the principal source of uncertainty in construction projects.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 17,
+    "subject": "Ground Engineering",
+    "topic": "Phases",
+    "week": 2,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Which investigation phase typically includes a desk study and walk-over survey?",
+    "answers": [
+      {"text":"Phase 1","correct":true},
+      {"text":"Phase 2","correct":false},
+      {"text":"Phase 3","correct":false},
+      {"text":"Phase 4","correct":false}
+    ]
+  },
+  {
+    "id": 18,
+    "subject": "Ground Engineering",
+    "topic": "Ground Investigation",
+    "week": 2,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "What factors influence the scope of field investigations?",
+    "answers": [
+      {"text":"Ground variability","correct":true},
+      {"text":"Nature of the project","correct":true},
+      {"text":"Existing information","correct":true},
+      {"text":"Colour of equipment","correct":false}
+    ]
+  },
+  {
+    "id": 19,
+    "subject": "Ground Engineering",
+    "topic": "Methods",
+    "week": 2,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Methods involving excavation or removal of material are known as:",
+    "answers": [
+      {"text":"Intrusive methods","correct":true},
+      {"text":"Remote methods","correct":false},
+      {"text":"Desk-based methods","correct":false},
+      {"text":"Analytical methods","correct":false}
+    ]
+  },
+  {
+    "id": 20,
+    "subject": "Ground Engineering",
+    "topic": "Sampling",
+    "week": 2,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Sampling allows laboratory testing of recovered ground material.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+
+  {
+    "id": 21,
+    "subject": "Ground Engineering",
+    "topic": "Soil Properties",
+    "week": 3,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Soil is generally considered a three-phase material consisting of:",
+    "answers": [
+      {"text":"Solid, liquid and gas","correct":true},
+      {"text":"Sand, clay and silt","correct":false},
+      {"text":"Rock, water and air","correct":false},
+      {"text":"Earth, water and minerals","correct":false}
+    ]
+  },
+  {
+    "id": 22,
+    "subject": "Ground Engineering",
+    "topic": "History",
+    "week": 3,
+    "difficulty": "Easy",
+    "type": "fillblank",
+    "question": "Karl von Terzaghi is commonly known as the father of ____ mechanics.",
+    "answer": "soil"
+  },
+  {
+    "id": 23,
+    "subject": "Ground Engineering",
+    "topic": "Soil Behaviour",
+    "week": 3,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Why is soil behaviour more difficult to predict than concrete?",
+    "answers": [
+      {"text":"Natural variability","correct":true},
+      {"text":"Water content affects behaviour","correct":true},
+      {"text":"Properties are not constant","correct":true},
+      {"text":"It is always homogeneous","correct":false}
+    ]
+  },
+  {
+    "id": 24,
+    "subject": "Ground Engineering",
+    "topic": "Engineering Soil",
+    "week": 3,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Topsoil is generally considered an engineering soil suitable for supporting structures.",
+    "answers": [
+      {"text":"True","correct":false},
+      {"text":"False","correct":true}
+    ]
+  },
+  {
+    "id": 25,
+    "subject": "Ground Engineering",
+    "topic": "Weathering",
+    "week": 3,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "Clay minerals are commonly produced through rock ____.",
+    "answer": "weathering"
+  },
+  {
+    "id": 26,
+    "subject": "Ground Engineering",
+    "topic": "Particle Size Distribution",
+    "week": 3,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Coarse-grained soils generally possess:",
+    "answers": [
+      {"text":"Higher permeability","correct":true},
+      {"text":"Higher plasticity","correct":false},
+      {"text":"Lower drainage","correct":false},
+      {"text":"Greater compressibility","correct":false}
+    ]
+  },
+  {
+    "id": 27,
+    "subject": "Ground Engineering",
+    "topic": "Plasticity",
+    "week": 3,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "The difference between the Liquid Limit and Plastic Limit is called the Plasticity ____.",
+    "answer": "Index"
+  },
+  {
+    "id": 28,
+    "subject": "Ground Engineering",
+    "topic": "Soil Description",
+    "week": 3,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "BS5930 provides terminology used when describing soils.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 29,
+    "subject": "Ground Engineering",
+    "topic": "Phase Relationships",
+    "week": 3,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which properties are commonly derived from phase relationships?",
+    "answers": [
+      {"text":"Moisture content","correct":true},
+      {"text":"Void ratio","correct":true},
+      {"text":"Density","correct":true},
+      {"text":"Traffic loading","correct":false}
+    ]
+  },
+  {
+    "id": 30,
+    "subject": "Ground Engineering",
+    "topic": "Phase Relationships",
+    "week": 3,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Degree of saturation describes:",
+    "answers": [
+      {"text":"The proportion of voids filled with water","correct":true},
+      {"text":"The dry density of the soil","correct":false},
+      {"text":"The volume of solids","correct":false},
+      {"text":"The particle density","correct":false}
+    ]
+  },
+  {
+    "id": 31,
+    "subject": "Ground Engineering",
+    "topic": "Groundwater",
+    "week": 4,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Groundwater originates primarily from:",
+    "answers": [
+      {"text":"Precipitation and infiltration","correct":true},
+      {"text":"Ocean tides","correct":false},
+      {"text":"Volcanic activity","correct":false},
+      {"text":"Evaporation alone","correct":false}
+    ]
+  },
+  {
+    "id": 32,
+    "subject": "Ground Engineering",
+    "topic": "Groundwater",
+    "week": 4,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Groundwater can influence pore water pressure and effective stress.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 33,
+    "subject": "Ground Engineering",
+    "topic": "Groundwater Terminology",
+    "week": 4,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "A geological deposit that permits groundwater flow is called an ____.",
+    "answer": "aquifer"
+  },
+  {
+    "id": 34,
+    "subject": "Ground Engineering",
+    "topic": "Groundwater Terminology",
+    "week": 4,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Match the groundwater terms to their meanings.",
+    "answers": [
+      {"text":"Aquifer permits water movement","correct":true},
+      {"text":"Aquitard restricts water movement","correct":true},
+      {"text":"Aquiclude prevents water movement","correct":true},
+      {"text":"Aquiclude increases permeability","correct":false}
+    ]
+  },
+  {
+    "id": 35,
+    "subject": "Ground Engineering",
+    "topic": "Artesian Water",
+    "week": 4,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Artesian groundwater is groundwater that:",
+    "answers": [
+      {"text":"Would rise above ground level if given a pathway","correct":true},
+      {"text":"Contains dissolved salts","correct":false},
+      {"text":"Only exists in clay","correct":false},
+      {"text":"Occurs at the water table","correct":false}
+    ]
+  },
+  {
+    "id": 36,
+    "subject": "Ground Engineering",
+    "topic": "Artesian Water",
+    "week": 4,
+    "difficulty": "Medium",
+    "type": "truefalse",
+    "question": "Sub-artesian groundwater would rise into overlying strata but not above ground level.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 37,
+    "subject": "Ground Engineering",
+    "topic": "Water Flow",
+    "week": 4,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "Bernoulli's equation states that total head equals elevation head plus ____ head.",
+    "answer": "piezometric"
+  },
+  {
+    "id": 38,
+    "subject": "Ground Engineering",
+    "topic": "Water Flow",
+    "week": 4,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Darcy's Law is expressed as:",
+    "answers": [
+      {"text":"q = k i A","correct":true},
+      {"text":"σ = γd","correct":false},
+      {"text":"u = γwd","correct":false},
+      {"text":"v = gt","correct":false}
+    ]
+  },
+  {
+    "id": 39,
+    "subject": "Ground Engineering",
+    "topic": "Permeability",
+    "week": 4,
+    "difficulty": "Medium",
+    "type": "truefalse",
+    "question": "Permeability is commonly expressed in units of m/s.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 40,
+    "subject": "Ground Engineering",
+    "topic": "Permeability",
+    "week": 4,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "The Hazen formula estimates permeability using the particle size _____ value.",
+    "answer": "d10"
+  },
+
+  {
+    "id": 41,
+    "subject": "Ground Engineering",
+    "topic": "Groundwater Problems",
+    "week": 5,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Which of the following may be used to control groundwater entering an excavation?",
+    "answers": [
+      {"text":"Dewatering","correct":true},
+      {"text":"Prestressing","correct":false},
+      {"text":"Grouting steel beams","correct":false},
+      {"text":"Shotcreting slopes","correct":false}
+    ]
+  },
+  {
+    "id": 42,
+    "subject": "Ground Engineering",
+    "topic": "Groundwater Problems",
+    "week": 5,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Methods used to manage groundwater inflow include:",
+    "answers": [
+      {"text":"Sump","correct":true},
+      {"text":"Cofferdam","correct":true},
+      {"text":"Dewatering","correct":true},
+      {"text":"Wind tunnel testing","correct":false}
+    ]
+  },
+  {
+    "id": 43,
+    "subject": "Ground Engineering",
+    "topic": "Heave",
+    "week": 5,
+    "difficulty": "Medium",
+    "type": "truefalse",
+    "question": "Heaving can occur when uplift pressures exceed the downward pressure from the self-weight of soil.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 44,
+    "subject": "Ground Engineering",
+    "topic": "Groundwater Problems",
+    "week": 5,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "Water flow beneath structures can produce upward forces known as ____.",
+    "answer": "uplift"
+  },
+  {
+    "id": 45,
+    "subject": "Ground Engineering",
+    "topic": "Groundwater Problems",
+    "week": 5,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Running sand occurs when:",
+    "answers": [
+      {"text":"Flowing water carries soil particles","correct":true},
+      {"text":"Sand particles cement together","correct":false},
+      {"text":"Clay dries and cracks","correct":false},
+      {"text":"Groundwater freezes","correct":false}
+    ]
+  },
+  {
+    "id": 46,
+    "subject": "Ground Engineering",
+    "topic": "Permeability Testing",
+    "week": 5,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Which of the following is NOT a method of determining permeability?",
+    "answers": [
+      {"text":"Flexural testing","correct":true},
+      {"text":"Indirect determination","correct":false},
+      {"text":"Laboratory testing","correct":false},
+      {"text":"In-situ testing","correct":false}
+    ]
+  },
+  {
+    "id": 47,
+    "subject": "Ground Engineering",
+    "topic": "Permeability Testing",
+    "week": 5,
+    "difficulty": "Medium",
+    "type": "truefalse",
+    "question": "Constant head permeability tests are generally suited to more permeable soils.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 48,
+    "subject": "Ground Engineering",
+    "topic": "Permeability Testing",
+    "week": 5,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "The falling head permeability test is commonly used for _____ grained soils.",
+    "answer": "fine"
+  },
+  {
+    "id": 49,
+    "subject": "Ground Engineering",
+    "topic": "Permeability Testing",
+    "week": 5,
+    "difficulty": "Hard",
+    "type": "multiselect",
+    "question": "Which variables appear in the constant head permeability equation?",
+    "answers": [
+      {"text":"Q","correct":true},
+      {"text":"A","correct":true},
+      {"text":"L","correct":true},
+      {"text":"H","correct":true}
+    ]
+  },
+  {
+    "id": 50,
+    "subject": "Ground Engineering",
+    "topic": "Pumping Tests",
+    "week": 5,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Pumping tests are generally considered the most accurate method of determining:",
+    "answers": [
+      {"text":"In-situ permeability","correct":true},
+      {"text":"Soil colour","correct":false},
+      {"text":"Particle shape","correct":false},
+      {"text":"Atterberg limits","correct":false}
+    ]
+  },
+
+  {
+    "id": 51,
+    "subject": "Ground Engineering",
+    "topic": "Seepage",
+    "week": 6,
+    "difficulty": "Easy",
+    "type": "fillblank",
+    "question": "Total stress can be expressed as effective stress plus pore water ____.",
+    "answer": "pressure"
+  },
+  {
+    "id": 52,
+    "subject": "Ground Engineering",
+    "topic": "Seepage",
+    "week": 6,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Pore water pressure is only greater than zero in saturated soils.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 53,
+    "subject": "Ground Engineering",
+    "topic": "Seepage",
+    "week": 6,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "If pore water pressure increases while total stress remains constant, effective stress will:",
+    "answers": [
+      {"text":"Decrease","correct":true},
+      {"text":"Increase","correct":false},
+      {"text":"Remain unchanged","correct":false},
+      {"text":"Become zero","correct":false}
+    ]
+  },
+  {
+    "id": 54,
+    "subject": "Ground Engineering",
+    "topic": "Seepage",
+    "week": 6,
+    "difficulty": "Medium",
+    "type": "truefalse",
+    "question": "Changes in effective stress influence soil strength.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 55,
+    "subject": "Ground Engineering",
+    "topic": "Flow Nets",
+    "week": 6,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Flow nets are a graphical method used to analyse:",
+    "answers": [
+      {"text":"Seepage through soils","correct":true},
+      {"text":"Structural loading","correct":false},
+      {"text":"Traffic movement","correct":false},
+      {"text":"Concrete shrinkage","correct":false}
+    ]
+  },
+  {
+    "id": 56,
+    "subject": "Ground Engineering",
+    "topic": "Flow Nets",
+    "week": 6,
+    "difficulty": "Medium",
+    "type": "truefalse",
+    "question": "Flow nets represent water flow only in saturated soils.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 57,
+    "subject": "Ground Engineering",
+    "topic": "Flow Nets",
+    "week": 6,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "The number of equipotential drops in a flow net is denoted by ____.",
+    "answer": "Nd"
+  },
+  {
+    "id": 58,
+    "subject": "Ground Engineering",
+    "topic": "Seepage",
+    "week": 6,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "The seepage force primarily causes changes in:",
+    "answers": [
+      {"text":"Pore water pressure","correct":true},
+      {"text":"Soil particle density","correct":false},
+      {"text":"Particle size","correct":false},
+      {"text":"Specific gravity","correct":false}
+    ]
+  },
+  {
+    "id": 59,
+    "subject": "Ground Engineering",
+    "topic": "Flow Nets",
+    "week": 6,
+    "difficulty": "Hard",
+    "type": "multiselect",
+    "question": "Flow nets can be used to determine:",
+    "answers": [
+      {"text":"Water head","correct":true},
+      {"text":"Pore water pressure","correct":true},
+      {"text":"Seepage conditions","correct":true},
+      {"text":"Concrete strength","correct":false}
+    ]
+  },
+  {
+    "id": 60,
+    "subject": "Ground Engineering",
+    "topic": "Effective Stress",
+    "week": 6,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Why is effective stress important?",
+    "answers": [
+      {"text":"It governs soil strength and resistance to failure","correct":true},
+      {"text":"It determines particle colour","correct":false},
+      {"text":"It controls rainfall intensity","correct":false},
+      {"text":"It determines water density","correct":false}
+    ]
+  },
+  {
+    "id": 61,
+    "subject": "Ground Engineering",
+    "topic": "Bearing Capacity",
+    "week": 7,
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Bearing capacity is defined as the applied pressure that causes:",
+    "answers": [
+      {"text":"Shear failure or excessive settlement of the supporting soil","correct":true},
+      {"text":"Foundation cracking","correct":false},
+      {"text":"Groundwater flow","correct":false},
+      {"text":"Soil compaction only","correct":false}
+    ]
+  },
+  {
+    "id": 62,
+    "subject": "Ground Engineering",
+    "topic": "Bearing Capacity",
+    "week": 7,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "General shear failure is commonly associated with dense sands and saturated clays.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 63,
+    "subject": "Ground Engineering",
+    "topic": "Bearing Capacity",
+    "week": 7,
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "The vertical stress caused by the self-weight of soil is known as the _____ pressure.",
+    "answer": "overburden"
+  },
+  {
+    "id": 64,
+    "subject": "Ground Engineering",
+    "topic": "Bearing Capacity",
+    "week": 7,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which are recognised modes of bearing capacity failure?",
+    "answers": [
+      {"text":"General shear failure","correct":true},
+      {"text":"Local shear failure","correct":true},
+      {"text":"Punching shear failure","correct":true},
+      {"text":"Flexural shear failure","correct":false}
+    ]
+  },
+  {
+    "id": 65,
+    "subject": "Ground Engineering",
+    "topic": "Bearing Capacity",
+    "week": 7,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Punching shear failure is most commonly associated with:",
+    "answers": [
+      {"text":"Loose sands and highly compressible soils","correct":true},
+      {"text":"Dense sands","correct":false},
+      {"text":"Rock foundations","correct":false},
+      {"text":"Stiff clays only","correct":false}
+    ]
+  },
+  {
+    "id": 66,
+    "subject": "Ground Engineering",
+    "topic": "Foundations",
+    "week": 7,
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "A shallow foundation may be defined as one where the depth is less than the width.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 67,
+    "subject": "Ground Engineering",
+    "topic": "Foundations",
+    "week": 7,
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Deep foundations are often used when:",
+    "answers": [
+      {"text":"Near-surface soils have inadequate bearing capacity","correct":true},
+      {"text":"The structure is lightweight","correct":false},
+      {"text":"Groundwater is absent","correct":false},
+      {"text":"The excavation depth is less than 1 m","correct":false}
+    ]
+  },
+  {
+    "id": 68,
+    "subject": "Ground Engineering",
+    "topic": "Applied Pressure",
+    "week": 7,
+    "difficulty": "Hard",
+    "type": "fillblank",
+    "question": "Net applied pressure equals gross applied pressure minus the _____ pressure removed during excavation.",
+    "answer": "overburden"
+  },
+  {
+    "id": 69,
+    "subject": "Ground Engineering",
+    "topic": "Foundation Design",
+    "week": 7,
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which factors must be considered in foundation design in addition to bearing capacity?",
+    "answers": [
+      {"text":"Settlement","correct":true},
+      {"text":"Overturning","correct":true},
+      {"text":"Sliding","correct":true},
+      {"text":"Traffic signal timing","correct":false}
+    ]
+  },
+  {
+    "id": 70,
+    "subject": "Ground Engineering",
+    "topic": "Foundation Design",
+    "week": 7,
+    "difficulty": "Hard",
+    "type": "multiplechoice",
+    "question": "Safe bearing capacity (qs) is calculated as:",
+    "answers": [
+      {"text":"qult / F","correct":true},
+      {"text":"F / qult","correct":false},
+      {"text":"qult × F","correct":false},
+      {"text":"qult + F","correct":false}
+    ]
+  }
+]

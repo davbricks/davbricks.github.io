@@ -1,0 +1,51 @@
+[
+  {
+    "id": 201,
+    "subject": "Structural Design & Detailing",
+    "topic": "Reinforced Concrete",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "What is the primary purpose of reinforcement in concrete?",
+    "answers": [
+      { "text": "Resist tension", "correct": true },
+      { "text": "Reduce weight", "correct": false },
+      { "text": "Improve insulation", "correct": false },
+      { "text": "Increase permeability", "correct": false }
+    ]
+  },
+  {
+    "id": 202,
+    "subject": "Structural Design & Detailing",
+    "topic": "Steel Design",
+    "difficulty": "Medium",
+    "type": "truefalse",
+    "question": "Steel has similar strength in both tension and compression.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "id": 203,
+    "subject": "Structural Design & Detailing",
+    "topic": "Concrete Design",
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "Concrete is generally strong in compression but weak in _____.",
+    "answer": "tension"
+  },
+  {
+    "id": 204,
+    "subject": "Structural Design & Detailing",
+    "topic": "Detailing",
+    "difficulty": "Hard",
+    "type": "multiselect",
+    "question": "Which items commonly appear on reinforcement detailing drawings?",
+    "answers": [
+      { "text": "Bar marks", "correct": true },
+      { "text": "Bar spacing", "correct": true },
+      { "text": "Soil classification", "correct": false },
+      { "text": "Bar diameters", "correct": true }
+    ]
+  }
+]

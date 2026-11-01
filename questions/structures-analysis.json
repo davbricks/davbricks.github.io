@@ -1,0 +1,51 @@
+[
+  {
+    "id": 101,
+    "subject": "Analysis of Structures",
+    "topic": "Trusses",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "The method of joints is commonly used to analyse:",
+    "answers": [
+      { "text": "Beams", "correct": false },
+      { "text": "Trusses", "correct": true },
+      { "text": "Columns", "correct": false },
+      { "text": "Foundations", "correct": false }
+    ]
+  },
+  {
+    "id": 102,
+    "subject": "Analysis of Structures",
+    "topic": "Deflection",
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "The virtual work method is often used to calculate _____.",
+    "answer": "deflection"
+  },
+  {
+    "id": 103,
+    "subject": "Analysis of Structures",
+    "topic": "Determinacy",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "A statically determinate structure can be solved using equilibrium equations alone.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "id": 104,
+    "subject": "Analysis of Structures",
+    "topic": "Beam Analysis",
+    "difficulty": "Hard",
+    "type": "multiselect",
+    "question": "Which diagrams are commonly produced during beam analysis?",
+    "answers": [
+      { "text": "Shear force diagram", "correct": true },
+      { "text": "Bending moment diagram", "correct": true },
+      { "text": "Permeability diagram", "correct": false },
+      { "text": "Influence line diagram", "correct": true }
+    ]
+  }
+]
