@@ -1,7 +1,9 @@
 const QUESTION_TIME = 10;
 
-function startTimer(){
+function startQuestionTimer(){
     clearInterval(timer);
+
+    timerElement.style.color = "#001e4d";
 
     timeLeft = QUESTION_TIME;
     timerElement.textContent = `Time Left: ${timeLeft}s`;
@@ -42,7 +44,7 @@ function timeUp(){
 
         const correctAnswers = currentQuestion.answers.filter(a => a.correct).map(a => a.text);
         
-        fillFeedback.innerHTML = `Time's up!<br>Correct answers:<strong>${correctAnswers.join(", ")}`;
+        fillFeedback.innerHTML = `Time's up!<br>Correct answers:<strong>${correctAnswers.join(", ")}</strong>`;
         fillFeedback.className = "incorrect";
         fillFeedback.style.display = "block";
     }
@@ -69,4 +71,45 @@ function timeUp(){
     });
 
     nextButton.style.display = "block";
+}
+
+function startQuizTimer() {
+
+    clearInterval(timer);
+
+    timerElement.style.color = "#001e4d";
+
+    timerElement.style.color = "";
+
+    // Display initial time immediately
+    const initialMinutes = Math.floor(totalQuizTime / 60);
+
+    const initialSeconds = totalQuizTime % 60;
+
+    timerElement.textContent = `Exam Time: ${initialMinutes}:${initialSeconds.toString().padStart(2, "0")}`;
+
+    timer = setInterval(() => {
+
+        totalQuizTime--;
+
+        const minutes =Math.floor(totalQuizTime / 60);
+        const seconds = totalQuizTime % 60;
+
+        timerElement.textContent = `Exam Time: ${minutes}:${seconds.toString().padStart(2, "0")}`;
+
+        // Warning colour in final minute
+        if (totalQuizTime <= 60) {
+            timerElement.style.color = "red";
+        }
+
+        if (totalQuizTime <= 0) {
+
+            clearInterval(timer);
+
+            timerElement.innerHTML = "<strong>EXAM OVER</strong>";
+
+            showScore();
+        }
+
+    }, 1000);
 }

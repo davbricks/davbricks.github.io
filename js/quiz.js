@@ -10,6 +10,13 @@ function startQuiz(){
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
+
+    if (selectedTimerMode === "mock") {
+        totalQuizTime = quizQuestions.length * 30;
+
+        startQuizTimer();
+    }
+
     showQuestion();
 }
 
@@ -81,7 +88,9 @@ function showQuestion(){
         });
     }
 
-    startTimer();
+    if (selectedTimerMode === "revision") {
+        startQuestionTimer();
+    }
 }
 
 function resetState(){
@@ -115,7 +124,9 @@ function resetState(){
 }
 
 function selectAnswer(e){
-    clearInterval(timer);
+    if (selectedTimerMode === "revision") {
+        clearInterval(timer);
+    }
 
     const currentQuestion = quizQuestions[currentQuestionIndex];
     const correctAnswer = currentQuestion.answers.find(a => a.correct).text;
@@ -179,6 +190,10 @@ function checkFillAnswer(){
 
     fillAnswer.disabled = true;
     nextButton.style.display = "block";
+
+    if (selectedTimerMode === "revision") {
+        clearInterval(timer);
+    }
 }
 
 function showScore(){
@@ -201,16 +216,25 @@ function showScore(){
     else {
         incorrectQuestions.forEach(result => {
             questionElement.innerHTML += `<div class="review-item">
-                <p><strong>${result.question}</strong></p>
-                <p>${result.question}</p>
+                <p>
+                    ${result.question}
+                </p>
 
-                <p><span class="incorrect-answer">Your answer: </span>${result.userAnswer}</p>
-                <p>${result.userAnswer}</p>
+                <p>
+                    <span class="incorrect-answer">
+                        Your answer:
+                    </span>
+                    ${result.userAnswer}
+                </p>
 
-                <p><span class="correct-answer">Correct answer: </span>${result.correctAnswer}</p>
-                <p>${result.correctAnswer}</p>
+                <p>
+                    <span class="correct-answer">
+                        Correct answer:
+                    </span>
+                    ${result.correctAnswer}
+                </p>
             </div>`;
-        });
+                });
     }
 
     nextButton.innerHTML = "Play again";
@@ -236,8 +260,9 @@ nextButton.addEventListener("click", ()=>{
 })
 
 async function startSelectedQuiz(){
+    selectedTimerMode = document.querySelector(`input[name="timer-mode"]:checked`).value;
     console.log("Starting quiz for:", selectedSubject);
-    
+
     if (!selectedSubject){
         alert("Please select a module.");
 
@@ -246,11 +271,18 @@ async function startSelectedQuiz(){
 
     await loadSubjectQuestions();
 
+    selectedTopics = Array.from(document.querySelectorAll(".topic-checkbox:checked")).map(checkbox => checkbox.value);
+    selectedQuestionCount = questionCount.value;
+
+    if (selectedTopics.length === 0) {
+        alert("Please select at least one topic.");
+
+        return;
+    }
+
     createQuiz();
 
-    document.querySelector(".subject-buttons").style.display = "none";
-
-    startButton.style.display = "none";
+    document.getElementById("setup-screen").style.display = "none";
     quizScreen.style.display = "block";
 
     startQuiz();
@@ -258,21 +290,22 @@ async function startSelectedQuiz(){
 
 function returnHome() {
     quizScreen.style.display = "none";
-    document.querySelector(".subject-buttons").style.display = "flex";
-    startButton.style.display = "block";
+    document.getElementById("setup-screen").style.display = "none";
+    document.getElementById("home-screen").style.display = "block";
     homeButton.style.display = "none";
     nextButton.style.display = "none";
     questionElement.innerHTML = "";
 
     selectedSubject = "";
+    selectedTopics = [];
 
     subjectButtons.forEach(button => button.classList.remove("selected"));
-
-    startButton.disabled = true;
 
     questionCounter.textContent = "";
     progressBar.style.width = "0%";
     timerElement.textContent = "";
+
+    document.getElementById("topic-list").innerHTML = "";
 }
 
 function hideHomeButton(){
@@ -296,7 +329,9 @@ function hideHomeButton(){
 function checkMultiAnswer(){
     console.log("Muiltiselect submitted");
 
-    clearInterval(timer);
+    if (selectedTimerMode === "revision") {
+        clearInterval(timer);
+    }
 
     const currentQuestion = quizQuestions[currentQuestionIndex];
     const selectedAnswers = Array.from(document.querySelectorAll(".multi-answer:checked")).map(box => box.value);

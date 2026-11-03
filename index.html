@@ -8,16 +8,40 @@
 </head>
 <body>
     <div class="app">
-        <h1>Civil Engineering Revision</h1>
-        <h2>Select a subject</h2>
-        <div class="subject-buttons">
-            <button class="subject-btn" data-subject="Ground Engineering">
-                <strong>Ground Engineering</strong>
-            </button>
-            <button class="subject-btn" data-subject="Analysis of Structures"><strong>Analysis of Determinate & Inderterminate Structures</strong></button>
-            <button class="subject-btn" data-subject="Structural Design & Detailing"><strong>Structural Design & Detailing</strong></button>
+        <div id="home-screen">
+            <h1>Civil Engineering Revision</h1>
+            <h2>Select a subject</h2>
+            <div class="subject-buttons">
+                <button class="subject-btn" data-subject="Ground Engineering">
+                    <strong>Ground Engineering</strong>
+                </button>
+                <button class="subject-btn" data-subject="Analysis of Structures">
+                    <strong>Analysis of Determinate & Indeterminate Structures</strong>
+                </button>
+                <button class="subject-btn" data-subject="Structural Design & Detailing">
+                    <strong>Structural Design & Detailing</strong>
+                </button>
+            </div>
         </div>
-        <button id="start-btn" disabled>Start Quiz</button>
+        <div id="setup-screen" style="display:none;">
+            <h2 id="selected-subject"></h2>
+            <label>Number of questions</label>
+            <select id="question-count">
+                <option value="10">10</option>
+                <option value="20" selected>20</option>
+                <option value="30">30</option>
+                <option value="all">All available</option>
+            </select>
+            <h3>Timer Mode</h3>
+            <label><input type="radio" name="timer-mode" value ="revision" checked>Revision</label>
+            <br>
+            <label><input type="radio" name="timer-mode" value="mock">Mock Exam Mode</label>
+            <p id="available-count"></p>
+            <h3>Topics</h3>
+            <div id="topic-list"></div>
+            <button id="start-btn">Start Quiz</button>
+            <button id="back-btn">Back</button>
+        </div>
         <div class="quiz" style="display:none;">
             <div id="timer">Time left: 15s</div>
             <div id="question-counter"></div>

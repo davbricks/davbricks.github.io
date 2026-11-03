@@ -27,13 +27,18 @@ function createQuiz(){
     console.log("Selected subject:", selectedSubject);
     console.log("Questions loaded: ", questions);
     
-    const filteredQuestions = questions.filter(q => q.subject === selectedSubject);
+    const filteredQuestions = questions.filter(q => selectedTopics.includes(q.topic));
 
     console.log("Filtered Questions: ", filteredQuestions);
 
     shuffleArray(filteredQuestions);
 
-    quizQuestions = filteredQuestions.slice(0, Math.min(20, filteredQuestions.length));
+    if (selectedQuestionCount === "all") {
+        quizQuestions = filteredQuestions;
+    }
+    else {
+        quizQuestions = filteredQuestions.slice(0, Math.min(parseInt(selectedQuestionCount), filteredQuestions.length));
+    }
 
     console.log("Quiz questions:", quizQuestions);
 }

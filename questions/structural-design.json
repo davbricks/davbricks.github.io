@@ -1,51 +1,640 @@
 [
   {
-    "id": 201,
+    "id": 1,
     "subject": "Structural Design & Detailing",
-    "topic": "Reinforced Concrete",
+    "topic": "Introduction",
     "difficulty": "Easy",
     "type": "multiplechoice",
-    "question": "What is the primary purpose of reinforcement in concrete?",
+    "question": "According to the Institution of Structural Engineers, structural engineering is the art and science of designing structures that can safely resist:",
     "answers": [
-      { "text": "Resist tension", "correct": true },
-      { "text": "Reduce weight", "correct": false },
-      { "text": "Improve insulation", "correct": false },
-      { "text": "Increase permeability", "correct": false }
+      {"text":"Applied forces","correct":true},
+      {"text":"Only dead loads","correct":false},
+      {"text":"Temperature changes","correct":false},
+      {"text":"Groundwater pressure only","correct":false}
     ]
   },
   {
-    "id": 202,
+    "id": 2,
     "subject": "Structural Design & Detailing",
-    "topic": "Steel Design",
+    "topic": "Introduction",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "There is often more than one acceptable structural solution to a design problem.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 3,
+    "subject": "Structural Design & Detailing",
+    "topic": "Structural Forms",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Columns primarily carry load through:",
+    "answers": [
+      {"text":"Compression","correct":true},
+      {"text":"Tension","correct":false},
+      {"text":"Torsion","correct":false},
+      {"text":"Fatigue","correct":false}
+    ]
+  },
+  {
+    "id": 4,
+    "subject": "Structural Design & Detailing",
+    "topic": "Structural Forms",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which are examples of structural requirements?",
+    "answers": [
+      {"text":"Strength","correct":true},
+      {"text":"Stability","correct":true},
+      {"text":"Buildability","correct":true},
+      {"text":"Aesthetics only","correct":false}
+    ]
+  },
+  {
+    "id": 5,
+    "subject": "Structural Design & Detailing",
+    "topic": "Structural Behaviour",
+    "difficulty": "Easy",
+    "type": "fillblank",
+    "question": "All structures are exposed to _____ (loads).",
+    "answer": "actions"
+  },
+  {
+    "id": 6,
+    "subject": "Structural Design & Detailing",
+    "topic": "Loads",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Actions and loads mean the same thing in structural engineering.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 7,
+    "subject": "Structural Design & Detailing",
+    "topic": "Loads",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "People and furniture are examples of:",
+    "answers": [
+      {"text":"Variable actions","correct":true},
+      {"text":"Permanent actions","correct":false},
+      {"text":"Wind actions","correct":false},
+      {"text":"Accidental actions","correct":false}
+    ]
+  },
+  {
+    "id": 8,
+    "subject": "Structural Design & Detailing",
+    "topic": "Loads",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Examples of variable actions include:",
+    "answers": [
+      {"text":"People","correct":true},
+      {"text":"Furniture","correct":true},
+      {"text":"Storage loads","correct":true},
+      {"text":"Self-weight of beams","correct":false}
+    ]
+  },
+  {
+    "id": 9,
+    "subject": "Structural Design & Detailing",
+    "topic": "Loads",
+    "difficulty": "Easy",
+    "type": "fillblank",
+    "question": "The self-weight of structural elements is known as a _____ load.",
+    "answer": "dead"
+  },
+  {
+    "id": 10,
+    "subject": "Structural Design & Detailing",
+    "topic": "Load Transfer",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "In a typical frame, gravity loads transfer from:",
+    "answers": [
+      {"text":"Slab → Beam → Column → Foundation","correct":true},
+      {"text":"Column → Slab → Beam → Foundation","correct":false},
+      {"text":"Foundation → Beam → Slab","correct":false},
+      {"text":"Beam → Foundation → Slab","correct":false}
+    ]
+  },
+  {
+    "id": 11,
+    "subject": "Structural Design & Detailing",
+    "topic": "Eurocodes",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Which Eurocode relates to the design of steel structures?",
+    "answers": [
+      {"text":"EC3","correct":true},
+      {"text":"EC2","correct":false},
+      {"text":"EC4","correct":false},
+      {"text":"EC7","correct":false}
+    ]
+  },
+  {
+    "id": 12,
+    "subject": "Structural Design & Detailing",
+    "topic": "Eurocodes",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which Eurocodes are correctly matched?",
+    "answers": [
+      {"text":"EC2 – Concrete","correct":true},
+      {"text":"EC3 – Steel","correct":true},
+      {"text":"EC7 – Geotechnical","correct":true},
+      {"text":"EC5 – Earthquake design","correct":false}
+    ]
+  },
+  {
+    "id": 13,
+    "subject": "Structural Design & Detailing",
+    "topic": "Design Life",
+    "difficulty": "Easy",
+    "type": "fillblank",
+    "question": "The recommended design working life for buildings is _____ years.",
+    "answer": "50"
+  },
+  {
+    "id": 14,
+    "subject": "Structural Design & Detailing",
+    "topic": "Limit State Design",
     "difficulty": "Medium",
     "type": "truefalse",
-    "question": "Steel has similar strength in both tension and compression.",
+    "question": "Ultimate Limit State checks include structural strength.",
     "answers": [
-      { "text": "True", "correct": true },
-      { "text": "False", "correct": false }
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
     ]
   },
   {
-    "id": 203,
+    "id": 15,
     "subject": "Structural Design & Detailing",
-    "topic": "Concrete Design",
+    "topic": "Limit State Design",
     "difficulty": "Medium",
-    "type": "fillblank",
-    "question": "Concrete is generally strong in compression but weak in _____.",
-    "answer": "tension"
+    "type": "multiplechoice",
+    "question": "Deflection is checked under:",
+    "answers": [
+      {"text":"Serviceability Limit State","correct":true},
+      {"text":"Ultimate Limit State","correct":false},
+      {"text":"Accidental Limit State","correct":false},
+      {"text":"Geotechnical Limit State","correct":false}
+    ]
   },
   {
-    "id": 204,
+    "id": 16,
     "subject": "Structural Design & Detailing",
-    "topic": "Detailing",
+    "topic": "Safety Factors",
     "difficulty": "Hard",
-    "type": "multiselect",
-    "question": "Which items commonly appear on reinforcement detailing drawings?",
+    "type": "fillblank",
+    "question": "At ULS the partial factor applied to variable load Q is ____.",
+    "answer": "1.5"
+  },
+  {
+    "id": 17,
+    "subject": "Structural Design & Detailing",
+    "topic": "Safety Factors",
+    "difficulty": "Hard",
+    "type": "fillblank",
+    "question": "At ULS the partial factor applied to permanent load G is ____.",
+    "answer": "1.35"
+  },
+  {
+    "id": 18,
+    "subject": "Structural Design & Detailing",
+    "topic": "Steel Beams",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "UKB stands for:",
     "answers": [
-      { "text": "Bar marks", "correct": true },
-      { "text": "Bar spacing", "correct": true },
-      { "text": "Soil classification", "correct": false },
-      { "text": "Bar diameters", "correct": true }
+      {"text":"Universal Beam","correct":true},
+      {"text":"Universal Brace","correct":false},
+      {"text":"Unit Beam","correct":false},
+      {"text":"Uniform Beam","correct":false}
+    ]
+  },
+  {
+    "id": 19,
+    "subject": "Structural Design & Detailing",
+    "topic": "Steel Beams",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Important geometric properties of a steel I-beam include:",
+    "answers": [
+      {"text":"Flange thickness","correct":true},
+      {"text":"Web thickness","correct":true},
+      {"text":"Overall depth","correct":true},
+      {"text":"Concrete cover","correct":false}
+    ]
+  },
+  {
+    "id": 20,
+    "subject": "Structural Design & Detailing",
+    "topic": "Steel",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "S355 refers to:",
+    "answers": [
+      {"text":"Steel grade","correct":true},
+      {"text":"Beam depth","correct":false},
+      {"text":"Connection type","correct":false},
+      {"text":"Eurocode classification","correct":false}
+    ]
+  },
+  {
+    "id": 21,
+    "subject": "Structural Design & Detailing",
+    "topic": "Steel Columns",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Multi-storey steel columns are commonly joined using splices.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 22,
+    "subject": "Structural Design & Detailing",
+    "topic": "Bracing",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "The purpose of vertical bracing is to:",
+    "answers": [
+      {"text":"Provide lateral stability","correct":true},
+      {"text":"Support ceilings","correct":false},
+      {"text":"Reduce dead load","correct":false},
+      {"text":"Increase fire resistance","correct":false}
+    ]
+  },
+  {
+    "id": 23,
+    "subject": "Structural Design & Detailing",
+    "topic": "Bracing",
+    "difficulty": "Medium",
+    "type": "truefalse",
+    "question": "Floor plates often provide horizontal bracing action.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 24,
+    "subject": "Structural Design & Detailing",
+    "topic": "Composite Slabs",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Steel decking in a composite slab acts as:",
+    "answers": [
+      {"text":"Permanent shuttering","correct":true},
+      {"text":"Fire protection","correct":false},
+      {"text":"Temporary bracing only","correct":false},
+      {"text":"Ground support","correct":false}
+    ]
+  },
+  {
+    "id": 25,
+    "subject": "Structural Design & Detailing",
+    "topic": "Composite Slabs",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "A composite slab system contains:",
+    "answers": [
+      {"text":"Concrete","correct":true},
+      {"text":"Steel decking","correct":true},
+      {"text":"Shear studs","correct":true},
+      {"text":"Timber roof trusses","correct":false}
+    ]
+  },
+  {
+    "id": 26,
+    "subject": "Structural Design & Detailing",
+    "topic": "Cladding",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "A primary function of cladding is:",
+    "answers": [
+      {"text":"Separate internal and external environments","correct":true},
+      {"text":"Increase bearing capacity","correct":false},
+      {"text":"Reduce foundation depth","correct":false},
+      {"text":"Carry all building loads","correct":false}
+    ]
+  },
+  {
+    "id": 27,
+    "subject": "Structural Design & Detailing",
+    "topic": "Connections",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Simple steel connections are generally assumed to transmit:",
+    "answers": [
+      {"text":"Shear only","correct":true},
+      {"text":"Moment only","correct":false},
+      {"text":"Pure torsion","correct":false},
+      {"text":"No force","correct":false}
+    ]
+  },
+  {
+    "id": 28,
+    "subject": "Structural Design & Detailing",
+    "topic": "Connections",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Examples of simple steel connections include:",
+    "answers": [
+      {"text":"Fin plate","correct":true},
+      {"text":"End plate","correct":true},
+      {"text":"Pinned connection","correct":true},
+      {"text":"Reinforced concrete slab","correct":false}
+    ]
+  },
+  {
+    "id": 29,
+    "subject": "Structural Design & Detailing",
+    "topic": "Buildability",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "A structural engineer should consider how a structure will be safely constructed.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 30,
+    "subject": "Structural Design & Detailing",
+    "topic": "Structural Requirements",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which are fundamental structural requirements?",
+    "answers": [
+      {"text":"Strength","correct":true},
+      {"text":"Stability","correct":true},
+      {"text":"Serviceability","correct":true},
+      {"text":"Buildability","correct":true}
+    ]
+  },
+  {
+    "id": 31,
+    "subject": "Structural Design & Detailing",
+    "topic": "Restrained Beams",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "The flanges of a steel beam primarily resist:",
+    "answers": [
+      {"text":"Bending","correct":true},
+      {"text":"Shear","correct":false},
+      {"text":"Torsion","correct":false},
+      {"text":"Buckling only","correct":false}
+    ]
+  },
+  {
+    "id": 32,
+    "subject": "Structural Design & Detailing",
+    "topic": "Restrained Beams",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "The web of a steel beam carries most of the shear force.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 33,
+    "subject": "Structural Design & Detailing",
+    "topic": "Local Buckling",
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "Section classification is carried out to prevent _____ buckling.",
+    "answer": "local"
+  },
+  {
+    "id": 34,
+    "subject": "Structural Design & Detailing",
+    "topic": "Section Classification",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Which section class has plastic hinge rotation capacity without reduction in resistance?",
+    "answers": [
+      {"text":"Class 1","correct":true},
+      {"text":"Class 2","correct":false},
+      {"text":"Class 3","correct":false},
+      {"text":"Class 4","correct":false}
+    ]
+  },
+  {
+    "id": 35,
+    "subject": "Structural Design & Detailing",
+    "topic": "Section Classification",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which statements about section classification are correct?",
+    "answers": [
+      {"text":"Class 1 sections can form plastic hinges","correct":true},
+      {"text":"Class 2 sections have limited rotation capacity","correct":true},
+      {"text":"Class 4 sections may buckle before yield stress is reached","correct":true},
+      {"text":"Class 3 sections always reach full plastic moment","correct":false}
+    ]
+  },
+  {
+    "id": 36,
+    "subject": "Structural Design & Detailing",
+    "topic": "Restraint",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Shear studs can provide full lateral restraint between a beam and concrete slab.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 37,
+    "subject": "Structural Design & Detailing",
+    "topic": "Restraint",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Which floor system provides positive restraint through shear studs?",
+    "answers": [
+      {"text":"Composite slab","correct":true},
+      {"text":"Timber floor","correct":false},
+      {"text":"Masonry floor","correct":false},
+      {"text":"Asphalt floor","correct":false}
+    ]
+  },
+  {
+    "id": 38,
+    "subject": "Structural Design & Detailing",
+    "topic": "Shear Resistance",
+    "difficulty": "Easy",
+    "type": "fillblank",
+    "question": "For an acceptable design, VEd / Vc,Rd must be less than or equal to ____.",
+    "answer": "1"
+  },
+  {
+    "id": 39,
+    "subject": "Structural Design & Detailing",
+    "topic": "Combined Actions",
+    "difficulty": "Medium",
+    "type": "truefalse",
+    "question": "High shear forces can reduce the bending capacity of a steel section.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 40,
+    "subject": "Structural Design & Detailing",
+    "topic": "Serviceability",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Beam deflection checks are carried out at:",
+    "answers": [
+      {"text":"Serviceability Limit State","correct":true},
+      {"text":"Ultimate Limit State","correct":false},
+      {"text":"Accidental Limit State","correct":false},
+      {"text":"Fire Limit State","correct":false}
+    ]
+  },
+  {
+    "id": 41,
+    "subject": "Structural Design & Detailing",
+    "topic": "Lateral Torsional Buckling",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "question": "Lateral torsional buckling occurs when:",
+    "answers": [
+      {"text":"The compression flange moves sideways and twists","correct":true},
+      {"text":"The tension flange buckles","correct":false},
+      {"text":"The web tears","correct":false},
+      {"text":"The beam shears vertically","correct":false}
+    ]
+  },
+  {
+    "id": 42,
+    "subject": "Structural Design & Detailing",
+    "topic": "Lateral Torsional Buckling",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "question": "Long slender beams are more susceptible to lateral torsional buckling.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 43,
+    "subject": "Structural Design & Detailing",
+    "topic": "Lateral Torsional Buckling",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Which factors influence lateral torsional buckling?",
+    "answers": [
+      {"text":"Distance between restraints","correct":true},
+      {"text":"Connection stiffness","correct":true},
+      {"text":"Type of loading","correct":true},
+      {"text":"Paint colour","correct":false}
+    ]
+  },
+  {
+    "id": 44,
+    "subject": "Structural Design & Detailing",
+    "topic": "Lateral Torsional Buckling",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Which sections are generally most prone to lateral torsional buckling?",
+    "answers": [
+      {"text":"Open sections such as UKBs","correct":true},
+      {"text":"CHS sections","correct":false},
+      {"text":"SHS sections","correct":false},
+      {"text":"RHS sections","correct":false}
+    ]
+  },
+  {
+    "id": 45,
+    "subject": "Structural Design & Detailing",
+    "topic": "Effective Length",
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "question": "The distance over which lateral buckling occurs is known as the effective ____.",
+    "answer": "length"
+  },
+  {
+    "id": 46,
+    "subject": "Structural Design & Detailing",
+    "topic": "Loading",
+    "difficulty": "Hard",
+    "type": "truefalse",
+    "question": "A destabilising load can increase the effects of lateral torsional buckling.",
+    "answers": [
+      {"text":"True","correct":true},
+      {"text":"False","correct":false}
+    ]
+  },
+  {
+    "id": 47,
+    "subject": "Structural Design & Detailing",
+    "topic": "Loading",
+    "difficulty": "Hard",
+    "type": "multiplechoice",
+    "question": "A load applied above the shear centre and free to move laterally is considered:",
+    "answers": [
+      {"text":"Destabilising","correct":true},
+      {"text":"Normal","correct":false},
+      {"text":"Permanent","correct":false},
+      {"text":"Accidental","correct":false}
+    ]
+  },
+  {
+    "id": 48,
+    "subject": "Structural Design & Detailing",
+    "topic": "Connections",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "question": "Simple steel connections generally provide:",
+    "answers": [
+      {"text":"Minimal restraint","correct":true},
+      {"text":"Partial restraint","correct":false},
+      {"text":"Full restraint","correct":false},
+      {"text":"Infinite restraint","correct":false}
+    ]
+  },
+  {
+    "id": 49,
+    "subject": "Structural Design & Detailing",
+    "topic": "Connections",
+    "difficulty": "Medium",
+    "type": "multiselect",
+    "question": "Steel connections may be classified as:",
+    "answers": [
+      {"text":"Simple","correct":true},
+      {"text":"Semi-rigid","correct":true},
+      {"text":"Rigid","correct":true},
+      {"text":"Composite-only","correct":false}
+    ]
+  },
+  {
+    "id": 50,
+    "subject": "Structural Design & Detailing",
+    "topic": "Lateral Torsional Buckling",
+    "difficulty": "Hard",
+    "type": "multiplechoice",
+    "question": "For an unrestrained beam, lateral torsional buckling is acceptable when:",
+    "answers": [
+      {"text":"MEd / Mb,Rd ≤ 1","correct":true},
+      {"text":"MEd / Mb,Rd > 1","correct":false},
+      {"text":"VEd / Mb,Rd ≤ 1","correct":false},
+      {"text":"Vc,Rd / MEd ≤ 1","correct":false}
     ]
   }
 ]

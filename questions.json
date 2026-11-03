@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "subject": "Web Development",
+    "topic": "HTML",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "timer": 15,
+    "question": "What does HTML stand for?",
+    "answers": [
+      {
+        "text": "HyperText Markup Language",
+        "correct": true
+      },
+      {
+        "text": "Home Tool Markup Language",
+        "correct": false
+      },
+      {
+        "text": "Hyper Transfer Machine Language",
+        "correct": false
+      },
+      {
+        "text": "High Text Markup Language",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "subject": "Web Development",
+    "topic": "CSS",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "timer": 10,
+    "question": "CSS is used to style web pages.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "subject": "Web Development",
+    "topic": "JavaScript",
+    "difficulty": "Medium",
+    "type": "multiplechoice",
+    "timer": 20,
+    "question": "Which keyword declares a variable in JavaScript?",
+    "answers": [
+      {
+        "text": "let",
+        "correct": true
+      },
+      {
+        "text": "define",
+        "correct": false
+      },
+      {
+        "text": "variable",
+        "correct": false
+      },
+      {
+        "text": "int",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "subject": "Networking",
+    "topic": "TCP/IP",
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "timer": 20,
+    "question": "TCP stands for _____ Control Protocol.",
+    "answer": "Transmission"
+  },
+  {
+    "id": 5,
+    "subject": "Networking",
+    "topic": "DNS",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "timer": 15,
+    "question": "What does DNS stand for?",
+    "answers": [
+      {
+        "text": "Domain Name System",
+        "correct": true
+      },
+      {
+        "text": "Data Network Service",
+        "correct": false
+      },
+      {
+        "text": "Direct Node System",
+        "correct": false
+      },
+      {
+        "text": "Digital Name Service",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "subject": "Networking",
+    "topic": "Routing",
+    "difficulty": "Easy",
+    "type": "truefalse",
+    "timer": 10,
+    "question": "Routers operate primarily at Layer 3 of the OSI Model.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "subject": "Databases",
+    "topic": "SQL",
+    "difficulty": "Medium",
+    "type": "fillblank",
+    "timer": 25,
+    "question": "The SQL command used to retrieve data is _____.",
+    "answer": "SELECT"
+  },
+  {
+    "id": 8,
+    "subject": "Databases",
+    "topic": "SQL",
+    "difficulty": "Easy",
+    "type": "multiplechoice",
+    "timer": 15,
+    "question": "Which SQL statement inserts data into a table?",
+    "answers": [
+      {
+        "text": "INSERT",
+        "correct": true
+      },
+      {
+        "text": "UPDATE",
+        "correct": false
+      },
+      {
+        "text": "SELECT",
+        "correct": false
+      },
+      {
+        "text": "DELETE",
+        "correct": false
+      }
+    ]
+  }
+]
