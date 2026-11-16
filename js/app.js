@@ -70,7 +70,7 @@ function showTopicScreen() {
     const topics = [... new Set(questions.map(q => q.topic))];
     const topicList = document.getElementById("topic-list");
 
-    topics.forEach(topic => {topicList.innerHTML += `<label><input type="checkbox" class="topic-checkbox" value="${topic}" checked> ${topic}</label><br>`;});
+    topics.forEach(topic => {topicList.innerHTML += `<label class="topic-option"><input type="checkbox" class="topic-checkbox" value="${topic}" checked> ${topic}</label><br>`;});
 
     document.querySelectorAll(".topic-checkbox").forEach(checkbox => {checkbox.addEventListener("change", updateAvailableCount);});
 

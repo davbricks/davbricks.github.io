@@ -1,4 +1,4 @@
-const QUESTION_TIME = 10;
+const QUESTION_TIME = 20;
 
 function startQuestionTimer(){
     clearInterval(timer);

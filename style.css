@@ -464,7 +464,7 @@ body{
     box-shadow: 0 0 0 3px rgba(0, 30, 77, 0.15);
 }
 
-#setup-screen label {
+.topic-option {
     display: block;
     padding: 12px;
     margin-bottom: 8px;
@@ -472,6 +472,21 @@ body{
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.2s ease;
+}
+
+.topic-option:hover {
+    border-color: #001e4d;
+    background: #f5f7ff;
+}
+
+#setup-screen > label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #001e4d;
+    padding: 0;
+    border: none;
+    background: none;
 }
 
 #setup-screen label:hover {
@@ -563,4 +578,101 @@ body{
     justify-content: center;
     gap: 10px;
     margin-top: 20px;
+}
+
+/* ---------------------------
+   Mobile Devices
+---------------------------- */
+
+@media (max-width: 768px) {
+    .app {
+        width: 95%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    #question {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .subject-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .subject-btn {
+        width: 100%;
+        min-height: 60px;
+        font-size: 16px;
+    }
+
+    #question-count {
+        width: 100%;
+    }
+
+    #start-btn,
+    #back-btn,
+    #next-btn,
+    #home-btn {
+
+        width: 100%;
+        min-height: 50px;
+    }
+
+    .score-buttons {
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn {
+
+        width: 100%;
+        min-height: 60px;
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    #fill-answer {
+
+        width: 100%;
+        box-sizing: border-box;
+        min-height: 45px;
+    }
+
+    #submit-fill,
+    #submit-multi {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #topic-list label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .topic-checkbox {
+        width: 20px;
+        height: 20px;
+    }
+
+    #timer {
+        font-size: 1.1rem;
+        font-weight: bold;
+        text-align: center;
+    }
 }
